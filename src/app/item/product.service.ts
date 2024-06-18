@@ -18,7 +18,7 @@ export class ProductService {
     static ProductList: Array<Product> =  [
         {
           id: 1,
-          name: 'Hugo Boss duks',
+          name: 'Hugo Boss Hoodie',
           image: 'assets/images/products/bk1.jpg',
           category: 'Hoodie',
           size: ['L', 'XL'],
@@ -30,7 +30,7 @@ export class ProductService {
         },
         {
           id: 2,
-          name: 'Hugo Boss duks',
+          name: 'Hugo Boss Hoodie',
           image: 'assets/images/products/bk2.jpg',
           category: 'Hoodie',
           size: ['S', 'M'],
@@ -41,7 +41,7 @@ export class ProductService {
         },
         {
           id: 3,
-          name: 'Scotch&Soda duks',
+          name: 'Scotch&Soda Hoodie',
           image: 'assets/images/products/bk3.jpg',
           category: 'Hoodie',
           size: ['M', 'L','XL','XXL'],
@@ -63,7 +63,7 @@ export class ProductService {
         },
         {
           id: 5,
-          name: 'Guess duks',
+          name: 'Guess Hoodie',
           image: 'assets/images/products/bk4.jpg',
           category: 'Hoodie',
           size: ['S', 'L'],
@@ -75,7 +75,7 @@ export class ProductService {
         },
         {
           id: 6,
-          name: 'Calvin Klein duks',
+          name: 'Calvin Klein Hoodie',
           image: 'assets/images/products/bk5.jpg',
           category: 'Hoodie',
           size: ['XL', 'XXL'],
@@ -150,7 +150,7 @@ export class ProductService {
         {
           
             id: 13,
-            name: 'Hugo Boss jakna',
+            name: 'Hugo Boss Jacket',
             image: 'assets/images/products/j1.jpg',
             category: 'Jacket',
             size: ['S','M','L','XL', 'XXL'],
@@ -162,7 +162,7 @@ export class ProductService {
         {
           
             id: 14,
-            name: 'Scotch&Soda jakna',
+            name: 'Scotch&Soda Jacket',
             image: 'assets/images/products/j2.jpg',
             category: 'Jacket',
             size: ['M','L', 'XXL'],
@@ -174,7 +174,7 @@ export class ProductService {
         {
           
             id: 15,
-            name: 'Hugo Boss jakna',
+            name: 'Hugo Boss Jacket',
             image: 'assets/images/products/j3.jpg',
             category: 'Jacket',
             size: ['S','XL', 'XXL'],
@@ -186,7 +186,7 @@ export class ProductService {
         {
           
             id: 16,
-            name: 'Calvin Klein jakna',
+            name: 'Calvin Klein Jacket',
             image: 'assets/images/products/j4.jpg',
             category: 'Jacket',
             size: ['XL', 'XXL'],
@@ -198,7 +198,7 @@ export class ProductService {
         {
           
             id: 17,
-            name: 'Calvin Klein jakna',
+            name: 'Calvin Klein Jacket',
             image: 'assets/images/products/j5.jpg',
             category: 'Jacket',
             size: ['S','M','XL', 'XXL'],
@@ -210,7 +210,7 @@ export class ProductService {
         {
           
             id: 18,
-            name: 'Tommy Hilfinger jakna',
+            name: 'Tommy Hilfinger Jacket',
             image: 'assets/images/products/j6.jpg',
             category: 'Jacket',
             size: ['M','XL', 'XXL'],
@@ -222,7 +222,7 @@ export class ProductService {
         {
           
             id: 19,
-            name: 'Calvin Klein jakna',
+            name: 'Calvin Klein Jacket',
             image: 'assets/images/products/j7.jpg',
             category: 'Jacket',
             size: ['M','L','XL', 'XXL'],
@@ -234,7 +234,7 @@ export class ProductService {
         {
           
             id: 20,
-            name: 'Tommy Hilfinger majica',
+            name: 'Tommy Hilfinger Shirt',
             image: 'assets/images/products/m1.jpg',
             category: 'T-shirt',
             size: ['M','XL', 'XXL'],
@@ -246,7 +246,7 @@ export class ProductService {
         {
           
             id: 21,
-            name: 'Tommy Hilfinger majica',
+            name: 'Tommy Hilfinger Shirt',
             image: 'assets/images/products/m2.jpg',
             category: 'T-shirt',
             size: ['M','L','XL', 'XXL'],
@@ -258,7 +258,7 @@ export class ProductService {
         {
           
             id: 22,
-            name: 'Tommy Hilfinger majica',
+            name: 'Tommy Hilfinger Shirt',
             image: 'assets/images/products/m3.jpg',
             category: 'T-shirt',
             size: ['S','XXL'],
@@ -269,7 +269,7 @@ export class ProductService {
         {
           
             id: 23,
-            name: 'Superdry majica',
+            name: 'Superdry Shirt',
             image: 'assets/images/products/m4.jpg',
             category: 'T-shirt',
             size: ['S','M','L','XL', 'XXL'],
@@ -280,7 +280,7 @@ export class ProductService {
         {
           
             id: 24,
-            name: 'Superdry majica',
+            name: 'Superdry Shirt',
             image: 'assets/images/products/m5.jpg',
             category: 'T-shirt',
             size: ['S','M','L','XL', 'XXL'],
@@ -291,7 +291,7 @@ export class ProductService {
         {
           
             id: 25,
-            name: 'Scotch&Soda majica',
+            name: 'Scotch&Soda Shirt',
             image: 'assets/images/products/m6.jpg',
             category: 'T-shirt',
             size: ['S','M','L'],
@@ -302,7 +302,7 @@ export class ProductService {
         {
           
             id: 26,
-            name: 'Scotch&Soda majica',
+            name: 'Scotch&Soda Shirt',
             image: 'assets/images/products/m7.jpg',
             category: 'T-shirt',
             size: ['L','XL', 'XXL'],
@@ -313,7 +313,7 @@ export class ProductService {
         {
           
             id: 27,
-            name: 'Hugo Boss duks',
+            name: 'Hugo Boss Hoodie',
             image: 'assets/images/products/sk1.jpg',
             category: 'Hoodie',
             size: ['L','XL', 'XXL'],
@@ -324,7 +324,7 @@ export class ProductService {
         {
           
             id: 28,
-            name: 'Hugo Boss duks',
+            name: 'Hugo Boss Hoodie',
             image: 'assets/images/products/sk2.jpg',
             category: 'Hoodie',
             size: ['L','XL', 'XXL'],
@@ -335,7 +335,7 @@ export class ProductService {
         {
           
             id: 29,
-            name: 'Hugo Boss duks',
+            name: 'Hugo Boss Hoodie',
             image: 'assets/images/products/sk3.jpg',
             category: 'Hoodie',
             size: ['S','L','XL', 'XXL'],
@@ -346,7 +346,7 @@ export class ProductService {
         {
           
             id: 30,
-            name: 'Hugo Boss duks',
+            name: 'Hugo Boss Hoodie',
             image: 'assets/images/products/sk4.jpg',
             category: 'Hoodie',
             size: ['S','L'],
@@ -357,7 +357,7 @@ export class ProductService {
         {
           
             id: 31,
-            name: 'Superdry duks',
+            name: 'Superdry Hoodie',
             image: 'assets/images/products/sk5.jpg',
             category: 'Hoodie',
             size: ['S','M','L','XL','XXL'],
@@ -368,7 +368,7 @@ export class ProductService {
         {
           
             id: 32,
-            name: 'Calvin Klein duks',
+            name: 'Calvin Klein Hoodie',
             image: 'assets/images/products/sk6.jpg',
             category: 'Hoodie',
             size: ['S','M','L'],
@@ -379,7 +379,7 @@ export class ProductService {
         {
           
             id: 33,
-            name: 'Calvin Klein duks',
+            name: 'Calvin Klein Hoodie',
             image: 'assets/images/products/sk7.jpg',
             category: 'Hoodie',
             size: ['S','M','L'],
