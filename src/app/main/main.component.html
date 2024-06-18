@@ -1,0 +1,46 @@
+
+
+<div >
+<img #mainimg src="assets/images/1.jpg" alt="Image" class="mainimg">
+   <div #header class="header" >
+    
+        <div class="header-part"> 
+            <h2>Leto te zove</h2>
+            <p>Leto već je počelo, zgrabi svoju MAJICU dok su idalje dostupne<br> IMA DA GORIŠŠ!</p>
+            <a routerLink="/Category" [queryParams]="{'category': 'T-shirt'}"> <button class="shopnow draw-border">KLIKNI OVDE DA VIDIŠ</button></a>
+        </div>
+    
+        <div class="header-part"> 
+            <h2>Velika kolekcija zimskih proizvoda</h2>
+            <p>Zima je daleko ali bolje se pripremi,<br> dajemo najbolji izbor zimskih jakni, od kojih boli glava. </p>
+            <a routerLink="/Category" [queryParams]="{'category': 'Jacket'}"> <button class="shopnow draw-border" style="margin-top:20px;">Jakne</button></a>
+        </div>
+    </div>
+</div>
+<div class="mb-15">
+    <mat-tab-group class="mb-15">
+        <mat-tab label="Hot picks">
+            
+            <carousel fxHide.lt-sm="true" [itemsPerSlide]="3" [isAnimated]="true" [showIndicators]="false"
+                [interval]="5000">
+                <slide *ngFor="let product of productService.getRecommended()">
+                    <app-item [product]="product" class="rel-pos-item"></app-item>
+                </slide>
+            </carousel>
+            <carousel fxHide.gt-xs="true" [itemsPerSlide]="2" [isAnimated]="true" [showIndicators]="false"
+                [interval]="5000">
+                <slide *ngFor="let product of productService.getRecommended()">
+                    <app-item [product]="product" class="rel-pos-item"></app-item>
+                </slide>
+            </carousel>
+            <carousel fxHide.gt-xs="true" [itemsPerSlide]="1" [isAnimated]="true" [showIndicators]="false"
+                [interval]="5000">
+                <slide *ngFor="let product of productService.getRecommended()">
+                    <app-item [product]="product" class="rel-pos-item"></app-item>
+                </slide>
+            </carousel>
+            
+        </mat-tab>
+    </mat-tab-group>
+</div>
+
